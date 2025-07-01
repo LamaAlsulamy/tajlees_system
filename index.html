@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نظام الجلوس</title>
+
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Your own stylesheet and script -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+  <h1>نظام الجلوس</h1>
+  <p>يرجى اختيار ملف القاعات:</p>
+  <input type="file" id="roomFile" accept=".csv" />
+  <button id="loadRooms">تحميل القاعات</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
